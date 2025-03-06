@@ -7,13 +7,13 @@ describe("Marcador de puntaje de tenis", () => {
     expect(getScore(0,0)).toEqual("love - love");
   });
   it("En caso de que el primer jugador tenga 15-0", () => {
-    expect(getScore(1,0)).toEqual("15 - love");
+    expect(getScore(1,0)).toEqual("15 - 0");
   });
   it("En caso de que el primer jugador tenga 30-0", () => {
-    expect(getScore(2,0)).toEqual("30 - love");
+    expect(getScore(2,0)).toEqual("30 - 0");
   });
   it("En caso de que el primer jugador tenga 40-0", () => {
-    expect(getScore(3,0)).toEqual("40 - love");
+    expect(getScore(3,0)).toEqual("40 - 0");
   });
 });
 
